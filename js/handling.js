@@ -9,6 +9,7 @@ function addBlueBox() {
     //Last button function here    
     var bluebox = document.getElementById('blueIn');
     bluebox.style.display = 'block'; 
+    return 
 
 }
 
@@ -17,6 +18,16 @@ function addBlueBottom() {
     //Last button function here    
     var blueboxBottom = document.getElementById('blueBottom');
     blueboxBottom.style.display = 'block'; 
+    return
+
+}
+
+function addBlueRight() {
+
+    //Last button function here    
+    var blueboxRight = document.getElementById('blueboxRight');
+    blueboxRight.style.display = 'block'; 
+    return
 
 }
 
