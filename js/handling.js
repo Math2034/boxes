@@ -5,8 +5,7 @@
 
 
 function ShowBoxes(type) {
-
-    //Last button function here    
+    // Esconde todas as caixas primeiro
     var blueboxOn = document.getElementById('blueIn');
     var blueboxUnder = document.getElementById('blueBottom');
     var blueboxRight = document.getElementById('blueRight');
@@ -17,25 +16,16 @@ function ShowBoxes(type) {
     blueboxRight.style.display = 'none';
     blueboxLeft.style.display = 'none';
 
+    // Mostra a caixa correspondente
     if (type === 'on') {
         blueboxOn.style.display = 'block';
-    } 
-
-    else if (type === 'under') {
+    } else if (type === 'under') {
         blueboxUnder.style.display = 'block';
-    }
-
-    else if (type === 'right') {
+    } else if (type === 'right') {
         blueboxRight.style.display = 'block';
-    }
-
-    else if (type === 'left') {
+    } else if (type === 'left') {
         blueboxLeft.style.display = 'block';
     }
-
-
-
-
 }
 
 
