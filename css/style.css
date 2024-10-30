@@ -39,6 +39,7 @@
     background-color: blue; 
     display: none; 
     position: absolute; 
+    left: 0; 
     top: 0; 
 }
 
@@ -48,9 +49,11 @@
     background-color: red; 
     display: none; 
     position: absolute; 
-    right: 100px;
+    right: 900px;
     top: 0; 
 }
+
+
 
 #boxes {
     position: relative; 
