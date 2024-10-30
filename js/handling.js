@@ -5,7 +5,8 @@
 
 
 function ShowBoxes(type) {
-    // Esconde todas as caixas primeiro
+    
+    var redboxLeft = document.getElementById('redLeft');
     var blueboxOn = document.getElementById('blueIn');
     var blueboxUnder = document.getElementById('blueBottom');
     var blueboxRight = document.getElementById('blueRight');
@@ -15,8 +16,8 @@ function ShowBoxes(type) {
     blueboxUnder.style.display = 'none';
     blueboxRight.style.display = 'none';
     blueboxLeft.style.display = 'none';
-
-    // Mostra a caixa correspondente
+    redboxLeft.style.display = 'none';
+    
     if (type === 'on') {
         blueboxOn.style.display = 'block';
     } else if (type === 'under') {
@@ -24,7 +25,9 @@ function ShowBoxes(type) {
     } else if (type === 'right') {
         blueboxRight.style.display = 'block';
     } else if (type === 'left') {
+        redboxLeft.style.display = 'block';
         blueboxLeft.style.display = 'block';
+
     }
 }
 
